@@ -1,16 +1,31 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>FacebookApis</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook Apis playground</title>
+  <base href="https://merolhack.github.io/facebook-apis/">  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
-<link rel="stylesheet" href="styles.f88c08ba58a461b272bb.css"></head>
+
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Load environment variables -->
+  <script src="env.js"></script>
+<link rel="stylesheet" href="styles.573d8d0746bdce019a70.css"></head>
+
 <body>
   <app-root></app-root>
-<script src="polyfills-es5.f8b5a32bf736d11d106f.js" nomodule defer></script><script src="polyfills-es2015.d3e61f0dd2b58e518eca.js" type="module"></script><script src="runtime-es2015.b948044840398824f16e.js" type="module"></script><script src="main-es2015.15be44f4a1b66521d0f7.js" type="module"></script><script src="runtime-es5.b948044840398824f16e.js" nomodule defer></script><script src="main-es5.15be44f4a1b66521d0f7.js" nomodule defer></script></body>
+<script src="polyfills-es5.f8b5a32bf736d11d106f.js" nomodule defer></script><script src="polyfills-es2015.d3e61f0dd2b58e518eca.js" type="module"></script><script src="scripts.c6ed775df8d47eb73319.js" defer></script><script src="runtime-es2015.b948044840398824f16e.js" type="module"></script><script src="main-es2015.1b41177a633622adc0a5.js" type="module"></script><script src="runtime-es5.b948044840398824f16e.js" nomodule defer></script><script src="main-es5.1b41177a633622adc0a5.js" nomodule defer></script></body>
+
 </html>
