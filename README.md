@@ -17,8 +17,9 @@ The endpoints used in this project are:
 ## Libraries used
 
 * [@angular/material](https://material.angular.io)
-* [ngx-facebook](https://github.com/zyra/ngx-facebook)
-* [gh-pages](https://www.npmjs.com/package/gh-pages)
+* [ngx-facebook: Angular 2 Facebook SDK](https://github.com/zyra/ngx-facebook)
+* [angular-cli-ghpages: Deploy your Angular app to GitHub pages directly from the Angular CLI! 🚀](https://github.com/angular-schule/angular-cli-ghpages)
+* [ngx-cookieconsent: Cookie Consent module for Angular.](https://tinesoft.github.io/ngx-cookieconsent/home)
 
 ## Commands
 
@@ -54,6 +55,7 @@ ng g c components/header
 
 ```bash
 ng g s services/search
+ng g s services/env
 ```
 
 ### Models
@@ -66,6 +68,22 @@ ng g class models/insights
 ng g class models/adaccounts
 ng g class models/campaigns
 ```
+
+## Inspiration
+
+## Resources
+
+### Facebook
+
+* [Web > Login Button](https://developers.facebook.com/docs/facebook-login/web/login-button)
+* [Quickstart: Facebook SDK for JavaScript](https://developers.facebook.com/docs/javascript/quickstart)
+
+### Angular
+
+* [Angular 2 and environment variables](https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be)
+* [How to use environment variables to configure your Angular application without a rebuild](https://www.jvandemo.com/how-to-use-environment-variables-to-configure-your-angular-application-without-a-rebuild/)
+* [How to deploy an Angular 7 app to Github Pages](https://medium.com/code-sketch/how-to-deploy-an-angular-7-app-to-github-pages-9427b609645f)
+* [](https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be)
 
 ## Build
 
